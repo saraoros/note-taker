@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/saraoros/note-taker#readme",
   "dependencies": {
-    "jest": "^27.5.1"
+    "jest": "^27.5.1",
+    "util": "^0.12.4"
   }
 }
