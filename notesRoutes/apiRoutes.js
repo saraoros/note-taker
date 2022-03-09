@@ -1,11 +1,11 @@
-// is this file necessary?? Or can I combine it all with notes.js??
 const router = require("express").Router();
-
 const { notes } = require("../develop/db/db.json");
-const createNewNote = require("../lib/notes");
 
+// is this file necessary?? Or can I combine it all with notes.js??
 // am I supposed to write some sample notes into db.json??
 // which method is better? the get code block or post?
+
+
 
 // unsure about following code
 router.get("/api/notes", (req, res) => {
