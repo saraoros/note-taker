@@ -1,7 +1,7 @@
 # Note Taker
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## <a href="https://floating-plateau-14990.herokuapp.com/">Try the Note Taker App HERE through Heroku!</a>
+## <a href="https://floating-plateau-14990.herokuapp.com">Try the Note Taker App HERE through Heroku!</a>
 
 ## Images of Note Taker
 <img src="./images/noteshomepage.png" />
@@ -37,6 +37,9 @@
   - saragochez13@gmail.com
 
   # License
+
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  
   Copyright © 2022
 
     Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:

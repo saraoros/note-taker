@@ -23,7 +23,7 @@ app.get('/notes', (req, res) => {
 
 // Api page
 app.get('/api/notes', (req, res) => {
-  fs.readFile(path.join(__dirname, './db/db.json'), (err, data) => {
+  fs.readFile((__dirname, './db/db.json'), (err, data) => {
     if (err) throw res.send(404);
     res.json(JSON.parse(data));
   });
