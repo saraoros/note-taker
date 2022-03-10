@@ -10,15 +10,23 @@ app.use(express.static('./develop/public'));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-// This is for the homepage
+// Homepage
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, './develop/public/index.html'));
 });
 
-//this is for the notes page
+// Notes page
 app.get('/notes', (req, res) => {
   res.sendFile(path.join(__dirname, './develop/public/notes.html'));
 });
+
+// Api page
+app.get("/api/notes", (req, res) => {
+  fs.readFile(path.join(__dirname, "./db/db.json"), (data) => {
+    res.json(JSON.parse(data));
+  })
+});
+
 
 app.post('/api/notes', (req, res) => {
   fs.readFile(path.join(__dirname, './db/db.json'), (err, data) => {
