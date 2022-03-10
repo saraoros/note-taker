@@ -24,7 +24,8 @@ app.get('/notes', (req, res) => {
 // Api page
 // **** this route is coming up as 'null'
 app.get('/api/notes', (req, res) => {
-  fs.readFile(path.join(__dirname, './db/db.json'), (data) => {
+  fs.readFile(path.join(__dirname, './db/db.json'), (err, data) => {
+    if (err) throw res.send(404);
     res.json(JSON.parse(data));
   });
 });

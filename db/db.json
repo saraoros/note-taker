@@ -1,159 +1,23 @@
 [
   {
-    "title": "Test Title",
-    "text": "Test text",
+    "title": "Grocery Run",
+    "text": "Don't forget the kombucha!",
     "id": [
       0
     ]
   },
   {
-    "title": "Grocery Run",
-    "text": "Don't forget the kombucha!",
+    "title": "Study for interview",
+    "text": "Look into the company as well!",
     "id": [
       1
     ]
   },
   {
-    "title": "Grocery Run!",
-    "text": "- Don't forget the Kombucha!",
-    "id": [
-      2
-    ]
-  },
-  {
-    "title": "fdsf",
-    "text": "sdfsd",
-    "id": [
-      3
-    ]
-  },
-  {
-    "title": "kjk",
-    "text": "jhkhj",
-    "id": [
-      4
-    ]
-  },
-  {
-    "title": "Test Title",
-    "text": "Test text",
-    "id": [
-      5
-    ]
-  },
-  {
-    "title": "Grocery Run",
-    "text": "Don't forget the kombucha!",
-    "id": [
-      6
-    ]
-  },
-  {
-    "title": "Grocery Run!",
-    "text": "- Don't forget the Kombucha!",
-    "id": [
-      7
-    ]
-  },
-  {
-    "title": "fdsf",
-    "text": "sdfsd",
-    "id": [
-      8
-    ]
-  },
-  {
-    "id": [
-      9
-    ]
-  },
-  {
-    "title": "gh",
-    "text": "gfg",
-    "id": [
-      10
-    ]
-  },
-  {
-    "title": "Test Title",
-    "text": "Test text",
-    "id": [
-      0
-    ]
-  },
-  {
-    "title": "Grocery Run",
-    "text": "Don't forget the kombucha!",
+    "title": "Read for 45 minutes",
+    "text": "Don't forget to put your phone on silent!",
     "id": [
       1
-    ]
-  },
-  {
-    "title": "Grocery Run!",
-    "text": "- Don't forget the Kombucha!",
-    "id": [
-      2
-    ]
-  },
-  {
-    "title": "fdsf",
-    "text": "sdfsd",
-    "id": [
-      3
-    ]
-  },
-  {
-    "title": "kjk",
-    "text": "jhkhj",
-    "id": [
-      4
-    ]
-  },
-  {
-    "title": "Test Title",
-    "text": "Test text",
-    "id": [
-      5
-    ]
-  },
-  {
-    "title": "Grocery Run",
-    "text": "Don't forget the kombucha!",
-    "id": [
-      6
-    ]
-  },
-  {
-    "title": "Grocery Run!",
-    "text": "- Don't forget the Kombucha!",
-    "id": [
-      7
-    ]
-  },
-  {
-    "title": "fdsf",
-    "text": "sdfsd",
-    "id": [
-      8
-    ]
-  },
-  {
-    "id": [
-      9
-    ]
-  },
-  {
-    "title": "gh",
-    "text": "gfg",
-    "id": [
-      10
-    ]
-  },
-  {
-    "title": "ghfhfgh",
-    "text": "hfhgfhg",
-    "id": [
-      11
     ]
   }
 ]
