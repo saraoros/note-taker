@@ -22,7 +22,6 @@ app.get('/notes', (req, res) => {
 });
 
 // Api page
-// **** this route is coming up as 'null'
 app.get('/api/notes', (req, res) => {
   fs.readFile(path.join(__dirname, './db/db.json'), (err, data) => {
     if (err) throw res.send(404);
@@ -35,7 +34,6 @@ app.post('/api/notes', (req, res) => {
     if (err) throw res.send(404);
     const tasks = JSON.parse(data);
     tasks.push(req.body);
-    //tasks.push(tasks);
 
     // for loop to add new notes into db.json
     for (let i = 0; i < tasks.length; i++) {
